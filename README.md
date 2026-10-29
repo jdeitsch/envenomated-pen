@@ -11,6 +11,7 @@ A lightweight utility designed to help authors and creators inject custom text, 
 - **Simple Graphical Interface (GUI):** No command line required for end users.
 
 - **Randomized Injection:** Seamlessly embeds your payload (`poison.txt`) between random `<p>` tags within the book's internal XHTML files.
+> _Note:_ Your poison text will need to be HTML encoded to make it not render in the final eBook file. See the `poison.EXAMPLE.txt` for the correct formatting 
 
 - **Cross-Platform:** Works on both Windows and macOS.
 
@@ -18,7 +19,7 @@ A lightweight utility designed to help authors and creators inject custom text, 
 
 ## For Non-Technical Users (Ready-to-use App)
 
-1. Download the latest `.exe` (Windows) or app bundle (Mac) from the **Releases** tab on this GitHub repository.
+1. Download the latest `.exe` (Windows) from the **Releases** tab on this GitHub repository.
 
 2. Double-click the application.
 
