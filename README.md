@@ -33,6 +33,6 @@ A lightweight utility designed to help authors and creators inject custom text, 
 1. Clone the repository:
 
 ```bash
-git clone \[https://github.com/YOUR-USERNAME/epub-poison-injector.git](https://github.com/YOUR-USERNAME/epub-poison-injector.git)
+git clone https://github.com/jdeitsch/epub-poison-injector.git
 cd epub-poison-injector
 ```
