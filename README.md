@@ -1,0 +1,40 @@
+\# ePub Data Poisoning Injector 🛡️
+
+
+
+A lightweight utility designed to help authors and creators inject custom text, markup, or data-poisoning payloads into random paragraphs of their ePub files. This helps disrupt unauthorized text scraping and LLM training on copyrighted works.
+
+
+
+\## Features
+
+\- \*\*Simple Graphical Interface (GUI):\*\* No command line required for end users.
+
+\- \*\*Randomized Injection:\*\* Seamlessly embeds your payload (`poison.txt`) between random `<p>` tags within the book's internal XHTML files.
+
+\- \*\*Cross-Platform:\*\* Works on both Windows and macOS.
+
+
+
+\## For Non-Technical Users (Ready-to-use App)
+
+1\. Download the latest `.exe` (Windows) or app bundle (Mac) from the \*\*Releases\*\* tab on this GitHub repository.
+
+2\. Double-click the application.
+
+3\. Select your `.epub` file and your text/HTML payload file.
+
+4\. Click \*\*Inject and Save ePub\*\*.
+
+
+
+\## For Developers (Running from Source)
+
+1\. Clone the repository:
+
+&#x20;  ```bash
+
+&#x20;  git clone \[https://github.com/YOUR-USERNAME/epub-poison-injector.git](https://github.com/YOUR-USERNAME/epub-poison-injector.git)
+
+&#x20;  cd epub-poison-injector
+
