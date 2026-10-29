@@ -1,4 +1,4 @@
-\# ePub Data Poisoning Injector 🛡️
+# ePub Data Poisoning Injector 🛡️
 
 
 
@@ -6,35 +6,33 @@ A lightweight utility designed to help authors and creators inject custom text, 
 
 
 
-\## Features
+## Features
 
-\- \*\*Simple Graphical Interface (GUI):\*\* No command line required for end users.
+- **Simple Graphical Interface (GUI):** No command line required for end users.
 
-\- \*\*Randomized Injection:\*\* Seamlessly embeds your payload (`poison.txt`) between random `<p>` tags within the book's internal XHTML files.
+- **Randomized Injection:** Seamlessly embeds your payload (`poison.txt`) between random `<p>` tags within the book's internal XHTML files.
 
-\- \*\*Cross-Platform:\*\* Works on both Windows and macOS.
-
-
-
-\## For Non-Technical Users (Ready-to-use App)
-
-1\. Download the latest `.exe` (Windows) or app bundle (Mac) from the \*\*Releases\*\* tab on this GitHub repository.
-
-2\. Double-click the application.
-
-3\. Select your `.epub` file and your text/HTML payload file.
-
-4\. Click \*\*Inject and Save ePub\*\*.
+- **Cross-Platform:** Works on both Windows and macOS.
 
 
 
-\## For Developers (Running from Source)
+## For Non-Technical Users (Ready-to-use App)
 
-1\. Clone the repository:
+1. Download the latest `.exe` (Windows) or app bundle (Mac) from the **Releases** tab on this GitHub repository.
 
-&#x20;  ```bash
+2. Double-click the application.
 
-&#x20;  git clone \[https://github.com/YOUR-USERNAME/epub-poison-injector.git](https://github.com/YOUR-USERNAME/epub-poison-injector.git)
+3. Select your `.epub` file and your text/HTML payload file.
 
-&#x20;  cd epub-poison-injector
+4. Click **Inject and Save ePub**.
 
+
+
+## For Developers (Running from Source)
+
+1. Clone the repository:
+
+```bash
+git clone \[https://github.com/YOUR-USERNAME/epub-poison-injector.git](https://github.com/YOUR-USERNAME/epub-poison-injector.git)
+cd epub-poison-injector
+```
